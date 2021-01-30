@@ -7,16 +7,10 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-  <h1>Ruby on Rails スケジュール管理アプリ</1>
-  <header></header>
-
     <%= yield %>
-    <footer>
-      現在の日時：
-    </footer>
   </body>
 </html>
